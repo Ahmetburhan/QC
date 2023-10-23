@@ -1,0 +1,32 @@
+/* Banner.css */
+
+.rdPos .banner {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Generate random x and y position values */
+  background-position: calc(100% * var(--x)) calc(100% * var(--y));
+  border-radius: 10px;
+}
+
+.rdPos .box-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.rdPos .box {
+  width: 80px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #333;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
